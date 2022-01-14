@@ -1,0 +1,17 @@
+.container__composant2{
+    background: linear-gradient(135deg, #90278E 0%, #00AEED 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: -1;
+}
+.img{
+    height: 440px;
+}
+.container__composant2 h2{
+    color: white;
+    font-size: 40px;
+    margin-top: 135px;
+}

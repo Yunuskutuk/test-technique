@@ -1,0 +1,64 @@
+.container__navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    width: 100%;
+    height: 70px;
+    z-index: -3;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+.logo__ubilab{
+    height: 80%;
+}
+.link{
+color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+.nav__block1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+.accueil{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+.accueil::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 15px;
+    bottom: -7px;
+    background-color: white;
+    width: 25px;
+    height: 5px;
+    border-radius: 25px;
+}
+.block2{
+    display: flex;
+    height: 100%;
+    padding-right: 20px;
+    align-items: center;
+}
+.connexion{
+    color: white;
+    font-size: 15px;
+}
+.navbar__btn{
+    color: white;
+    background: linear-gradient(135deg, #90278E 0%, #00AEED 100%);
+    padding: 13px 0px;
+    border-radius: 10px;
+    width: 250px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
